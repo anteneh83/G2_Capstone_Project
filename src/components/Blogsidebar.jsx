@@ -1,3 +1,6 @@
+import Image from "../images/photo4.png"
+import Image1 from "../images/photo5.png"
+import Image2 from "../images/photo6.png"
 const BlogSidebar = () => {
     return (
       <aside className="space-y-8">
@@ -10,10 +13,33 @@ const BlogSidebar = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4">Recent Posts</h3>
           <ul className="space-y-2 text-blue-600">
-            
+            <div>
             <li>Top Beaches in Asia</li>
-            <li>Backpacking Tips</li>
-            <li>City vs Nature</li>
+            
+              <img
+                src={Image}
+                alt="Blog Detail"
+                className="w-20 h-20 object-cover rounded-lg"
+              />
+            </div>
+            
+            <div>
+              <li>Backpacking Tips</li>
+              <img
+                src={Image1}
+                alt="Blog Detail"
+                className="w-20 h-20 object-cover rounded-lg"
+              />
+            </div>
+            <div>
+              <li>City vs Nature</li>
+              <img
+                src={Image2}
+                alt="Blog Detail"
+                className="w-20 h-20 object-cover rounded-lg"
+              />
+            </div>
+           
           </ul>
         </div>
   

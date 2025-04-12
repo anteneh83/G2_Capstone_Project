@@ -1,3 +1,5 @@
+import Image from "../images/photo2.png";
+import Image2 from "../images/photo3.png"
 
 const BlogMainContent = () => {
     return (
@@ -6,7 +8,7 @@ const BlogMainContent = () => {
         <p className="text-gray-500 text-sm">April 5, 2025 • Adventure</p>
   
         <img
-          src="/assets/blog-image-1.jpg"
+          src={Image}
           alt="Blog Detail"
           className="w-full h-96 object-cover rounded-lg"
         />
@@ -24,7 +26,11 @@ const BlogMainContent = () => {
           Whether you're climbing mountains or exploring beaches, it's about the people,
           the food, and the stories you collect.
         </p>
-  
+       <img
+                src={Image2}
+                alt="Blog Detail"
+                className="w-full h-96 object-cover rounded-lg"
+              />
         <div className="flex flex-wrap gap-2 mt-4">
           <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm">#Adventure</span>
           <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm">#Nature</span>
