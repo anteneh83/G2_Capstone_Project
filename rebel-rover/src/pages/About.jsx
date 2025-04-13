@@ -7,7 +7,7 @@ import i1 from "./assets/image/i1.jpg";
 import i4 from "./assets/image/i4.jpg";
 import i5 from "./assets/image/i5.jpg";
 import i6 from "./assets/image/i6.jpg";
-const AboutUs = () => {
+const About = () => {
   return (
     <div className="about-us" style={{
         background:'white'
@@ -213,4 +213,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default About;

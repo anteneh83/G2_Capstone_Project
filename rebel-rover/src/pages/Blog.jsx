@@ -3,7 +3,7 @@ import BlogSidebar from "../components/Blogsidebar";
 import CommentForm from "../components/commentform";
 // import   myImage from './Images/Header.jpg';
 
-const SingleBlog = () => {
+const Blog = () => {
   return (
     <div className="pt-20 bg-white">
       {/* Hero */}
@@ -32,4 +32,4 @@ const SingleBlog = () => {
   );
 };
 
-export default SingleBlog;
+export default Blog;
