@@ -4,52 +4,82 @@ function Footer(){
       <div>
         <div
           style={{
-            backgroundImage:"url('src/assets/image-for-footer.png')",
+            backgroundImage: "url('src/assets/image-for-footer.png')",
             height: "450px",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
-            display: "flex", // Use Flexbox
-            justifyContent: "center", // Center horizontally
+            display: "flex",
+            justifyContent: "center",
             alignItems: "center",
           }}
         >
-          <div
-            style={{ position: "relative", width: "500px", maxWidth: "90vw" }}
-          >
-            <input
-              type="text"
-              placeholder="Type your email here"
+          <div>
+            <div
               style={{
+                color: "#FFFFFF",
+                maxWidth: "630px",
+                transform: "translateY(-90px)",
                 width: "100%",
-                padding: "10px 60px 10px 10px", 
-                height: "48px", 
-                fontSize: "18px", 
-                boxSizing: "border-box", 
-                border: "none",
-                borderRadius: "30px",
-                transform: "translateY(80px)",
-              }}
-            />
-            <button
-              style={{
-                position: "absolute",
-                right: "4px", 
-                top: "84px", 
-                height: "40px", 
-                background: "black",
-                color: "white",
-                border: "none",
-                borderRadius: "20px", 
-                cursor: "pointer",
-                display: "flex", 
-                justifyContent: "center", 
                 alignItems: "center",
-                width: "110px",
+                textAlign: "center",
+                fontWeight: "600",
+                fontFamily: "poppins",
+                fontSize: "33px",
               }}
             >
-              Subscribe
-            </button>
+              Subcribe to get special price
+              <p
+                style={{
+                  color: "#DFDFDF",
+                  fontSize: "small",
+                  textAlign: "center",
+                  alignItems: "center",
+                }}
+              >
+                Dont wanna miss something? subscribe right now and get special
+                promotion and monthly newsletter
+              </p>
+            </div>
+            <div
+              style={{
+                position: "relative",
+                width: "540px",
+                maxWidth: "90vw",
+                margin: " 0 50px",
+              }}
+            >
+              <input
+                type="text"
+                placeholder="Type your email here"
+                style={{
+                  width: "100%",
+                  padding: "10px 60px 10px 10px",
+                  height: "48px",
+                  fontSize: "18px",
+                  boxSizing: "border-box",
+                  border: "none",
+                  borderRadius: "30px",
+                }}
+              />
+              <button
+                style={{
+                  position: "absolute",
+                  right: "5px",
+                  top: "50%",
+                  transform: "translateY(-50%)",
+                  height: "36px",
+                  background: "black",
+                  color: "white",
+                  border: "none",
+                  borderRadius: "18px",
+                  cursor: "pointer",
+                  padding: "0 20px",
+                }}
+              >
+                Subscribe
+              </button>
+            </div>
           </div>
         </div>
 
@@ -68,7 +98,7 @@ function Footer(){
           <div style={{ margin: "20px 0px" }}>
             <div className="group-1">
               <img
-                style={{ width:"396px",maxWidth: "60vw" }}
+                style={{ width: "396px", maxWidth: "60vw" }}
                 className="logo-3"
                 src="src/assets/logo-for-footer.png"
                 alt="logo"

@@ -20,7 +20,7 @@ function ExploreSection() {
           &#10094;
         </button>
 
-        {/* Right Arrow */}
+        {/* Right Arrow */}  
         <button className="absolute right-0 top-1/2 transform -translate-y-1/2 w-10 h-10 bg-white shadow rounded-lg text-xl z-10">
           &#10095;
         </button>
