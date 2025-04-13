@@ -46,7 +46,7 @@ function App() {
         }}
       >
         <Link to="/">
-          <img src="logo1 2.png" style={{ maxWidth: "50vw", height: "auto" }} />
+          <img src="src/assets/logo1 2.png" style={{ maxWidth: "50vw", height: "auto" }} />
         </Link>
 
         <Link
