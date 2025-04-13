@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import Footer from "./Footer";
-import Navigator from "./Navigator";
+import Footer from "./components/Footer";
+import Navigator from "./components/Navigator";
 import ContactForm from "./components/contactForm";
 import ContactBox from "./components/contactBox";
 

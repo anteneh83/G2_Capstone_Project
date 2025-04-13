@@ -7,6 +7,7 @@ import i1 from "./assets/image/i1.jpg";
 import i4 from "./assets/image/i4.jpg";
 import i5 from "./assets/image/i5.jpg";
 import i6 from "./assets/image/i6.jpg";
+
 const About = () => {
   return (
     <div className="about-us" style={{
@@ -208,7 +209,6 @@ const About = () => {
       </div>
     </div>
       </div>
-      <Footer/>
     </div>
   );
 };

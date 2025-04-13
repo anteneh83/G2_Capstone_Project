@@ -28,6 +28,7 @@ const Blog = () => {
         </div>
         <BlogSidebar />
       </div>
+      <Footer />
     </div>
   );
 };
