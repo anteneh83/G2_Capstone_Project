@@ -1,13 +1,13 @@
 import React, { useContext } from 'react';
 import { Route, Routes, Link, useParams, useNavigate } from 'react-router-dom';
 
-import Home from './Home';
-import Contact from './Contact';
-import Blog from './Blog';
-import Destination from './Destination';
-import About from'./About';
-import Package from './Package';
-import NotFound from './NotFound';
+import Home from './pages/Home';
+import Contact from "./pages/Contact";
+import Blog from "./pages/Blog";
+import Destination from "./pages/Destination";
+import About from "./pages/About";
+import Package from "./pages/Package";
+import NotFound from "./pages/NotFound";
 
 
 
