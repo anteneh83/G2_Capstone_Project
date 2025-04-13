@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import Footer from "./Footer";
 import Navigator from "./Navigator";
+import ContactForm from "./components/contactForm";
+import ContactBox from "./components/contactBox";
 
 
 
@@ -24,19 +26,22 @@ const Contact= () => {
       <div
         className="container"
         style={{
-          backgroundImage: "url('Banner.png')", 
+          backgroundImage: "url('src/assets/Banner.png')",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           color: "#FFFFFF",
-          display: "flex", 
-          justifyContent: "center", 
+          display: "flex",
+          justifyContent: "center",
           alignItems: "center",
         }}
       >
         <div>
           <h1>Contact</h1>
-          <p style={{display:"flex"}}><Navigator />Contact</p>
+          <p style={{ display: "flex" }}>
+            <Navigator />
+            Contact
+          </p>
         </div>
       </div>
       <div
@@ -44,76 +49,42 @@ const Contact= () => {
         style={{
           margin: "30px",
           padding: "20px",
-          backgroundColor: "#f0f0f0", 
+          backgroundColor: "#fff",
           textAlign: "center",
           color: "black",
           display: "flex",
           flexWrap: "wrap",
         }}
       >
+        <ContactForm/>
+        
+
         <div
-          className="boxOne"
+          className="boxTwo"
           style={{
-            fontSize: "30px", // Dynamic font size based on viewport width
-            backgroundColor: "yellow",
-            maxWidth: "340px", // Scales with the screen size
-            margin: "auto", // Centers the box horizontally
-            padding: "10px", // Adds internal spacing
-            borderRadius: "10px", // Makes it visually appealing
-            wordWrap: "break-word",
-            width: "90%",
+            width: "600px",
+            textAlign: "left",
+            padding: "0px",
+            fontSize: "small",
           }}
         >
-          <form style={{ padding: " 20px" }}>
-            <input
-              type="text"
-              className="inputs"
-              style={{ width: "300px", maxWidth: "100%" }}
-              placeholder="Your Name"
-            />
-            <input
-              type="text"
-              className="inputs"
-              style={{ width: "300px", maxWidth: "100%" }}
-              placeholder="Your Name"
-            />
-            <input
-              type="text"
-              className="inputs"
-              style={{ width: "300px", maxWidth: "100%" }}
-              placeholder="Your Name"
-            />
-            <input
-              type="text"
-              className="inputs"
-              style={{
-                width: "300px",
-                height: "100px",
-                margin: "10px 0",
-                maxWidth: "100%",
-              }}
-              placeholder="Your Name"
-            />
-            <button
-              value="submit"
-              style={{
-                color: "white",
-                background: "black",
-                width: "300px",
-                borderRadius: "20px",
-                maxWidth: "100%",
-              }}
-            >
-              Send Message
-            </button>
-          </form>
-        </div>
-        <div className="boxTwo" style={{ width: "600px", textAlign: "left" }}>
-          <h2>Get In Touch</h2>
-          <p>
+          <h2
+            style={{
+              fontSize: "30px",
+            }}
+          >
+            Get In Touch
+          </h2>
+          <p
+            style={{
+              color: "#343434",
+              fontSize: "13px",
+            }}
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna
           </p>
+          <ContactBox/>
         </div>
       </div>
 
