@@ -7,39 +7,42 @@ function TravelHero() {
       className="relative w-full h-screen bg-cover bg-center text-white"
       style={{ backgroundImage: `url(${user1})` }}
     >
-
+      {/* Header */}
       <header className="absolute top-0 left-0 w-full flex items-center justify-between px-8 py-4 z-20">
         <div className="text-2xl font-bold text-white">
           <span className="text-blue-300">REBEL</span> ROVER
         </div>
         <nav className="hidden md:flex gap-6 text-white font-medium">
-        
+          {/* Add nav links here */}
         </nav>
         <div className="md:hidden text-white text-xl">☰</div>
       </header>
 
+      {/* Hero Content */}
       <div className="relative z-10 h-full flex flex-col justify-start px-8 md:px-20 pt-[180px] space-y-6">
-        <h1
-          className="font-[Poppins] font-bold text-[90px] leading-[110px]"
-          style={{ width: '614px', color: '#FFFFFF' }}
-        >
-          Make in <br /> your journey.
-        </h1>
+      <h1
+  className="font-[Poppins] font-bold text-[90px] leading-[110px] text-left"
+  style={{ color: '#FFFFFF', height: '212.05px' }}
+>
+  Make in <br /> your journey.
+</h1>
+
 
         <p
           className="text-[18px] leading-[36px] font-medium font-[Poppins]"
-          style={{ color: 'background: #CFCFCF', width: '440px' }}
+          style={{ color: '#CFCFCF', width: '440px' }}
         >
           Explore the world with what you love. Beautiful natural beauty.
         </p>
 
+        {/* Filters Section */}
         <div
           className="bg-white flex flex-wrap md:flex-nowrap gap-6 shadow-lg text-black"
           style={{
             borderRadius: '72px',
             border: '1px solid #CBCACA',
             marginTop: '7px',
-            marginBottom:'7px',
+            marginBottom: '7px',
             width: '736px',
             height: '78.07px',
             padding: '12px 24px',
@@ -53,7 +56,7 @@ function TravelHero() {
               style={{
                 backgroundColor: '#FFFFFF',
                 color: '#9B9B9B',
-                 borderRadius: '8px',
+                borderRadius: '8px',
                 marginRight: i < 2 ? '12px' : '0px',
                 minWidth: '150px'
               }}
@@ -70,12 +73,14 @@ function TravelHero() {
               fontFamily: 'Poppins',
               fontWeight: 600,
               fontSize: '17px',
-              lineHeight: '40px'
+              lineHeight: '29px'
             }}
           >
             Explore now
           </button>
         </div>
+
+        {/* Popular Places */}
         <div
           className="text-sm text-white"
           style={{
@@ -85,11 +90,7 @@ function TravelHero() {
         >
           <span className="font-semibold text-gray-200">Popular Place:</span> Bali, Istanbul, Rome, Paris.
         </div>
-      </div>a
-
-     
-
-      
+      </div>
     </section>
   );
 }
