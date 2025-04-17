@@ -7,7 +7,7 @@ import user4 from '../assets/back.png';
 function WhyChooseUs() {
   return (
     <section className="w-full px-4 md:px-16 mb-12">
-      {/* Background covers 70% */}
+      
       <div
         className="relative bg-cover bg-center py-16"
         style={{
@@ -42,7 +42,7 @@ function WhyChooseUs() {
 
               {/* LINK ALIGNED LEFT */}
               <div className="text-left">
-                <a href="#" className="text-sm font-semibold text-black hover:text-blue-600 transition">
+                <a href="travel.com" className="text-sm font-semibold text-black hover:text-blue-600 transition">
                   Learn more ➝
                 </a>
               </div>
